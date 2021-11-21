@@ -1,0 +1,23 @@
+:root{
+    --red : #ff2800;
+}
+
+.tiem{
+    color: var(--red);
+    transition: 1s color linear;
+}
+.text-danger{
+    transition: 1s color linear;
+}
+.text-warning{
+    transition: 1s color linear;
+}
+.text-primary{
+    transition: 1s color linear;  
+}
+.text-success{
+    transition: 1s color linear;
+}
+.text-light{
+    transition: 1s color linear;
+}

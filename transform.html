@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>TRANSFORM!!!</title>
+
+        <style>
+            .top{
+                height: 200px;
+                width: 200px;
+                background-color: burlywood;
+                transform: translate(100px,200px);
+
+
+            }
+
+            .op{
+                height: 200px;
+                width: 200px;
+                background-color: lightblue;
+                transform: translate(150px,100px);
+                transition: background 3s ease-in;
+                transition: transform 3s ease-in;
+
+
+            }
+
+            .op:hover{
+                background-color: lightgreen;
+                transform: translate(50px,20px);
+                
+            }
+
+            .qop{
+                height: 200px;
+                width: 200px;
+                background: linear-gradient(blue,red);
+                position: absolute;
+                left:500px;
+                transform: rotate(120deg);
+                transition: transfrom 3s ease-in;
+                
+            }
+
+            .qop:hover{
+                
+                transform: rotate(0deg);
+
+            }
+
+            .pop{
+                height: 200px;
+                width: 200px;
+                background: linear-gradient(rgb(0, 195, 255),rgb(255, 136, 0));
+                position: absolute;
+                top:100px;
+                left: 400px;
+                transform: scale(1.0);
+                transition: transfrom 3s ease-in;
+
+            }
+
+            .pop:hover{
+                
+                transform: scale(0.5);
+
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="top">
+
+        </div>
+
+        <div class="op">
+
+        </div>
+
+        <div class="qop">
+
+        </div>
+
+        <div class="pop">
+
+        </div>
+        
+    </body>
+</html>

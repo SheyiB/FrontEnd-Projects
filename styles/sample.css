@@ -1,0 +1,113 @@
+
+*{
+    background: slategray;    
+}
+.main{
+    height: 100px;
+    width: 100px;
+    background: rgb(170, 227, 228);
+    border: 2px solid black; 
+}
+
+.cuv{
+    position: absolute;
+    top: 8px;
+    left: 158px;
+    border-top-right-radius: 85px;
+    
+
+}
+
+.flo{
+    position: absolute;
+    top: 8px;
+    left: 58px;
+}
+
+.test{
+    position: absolute;
+    top: 108px;
+    left: 108px;
+    width: 150px;
+    height: 120px;
+    border-bottom-right-radius: 100px;
+}
+
+.test:hover{
+    background: chocolate;
+}
+
+.vis{
+    background: slategray;
+    position: absolute;
+    top: 108px;
+    width: 50px;
+    left: 108px;
+    height: 40px;
+    border-bottom-right-radius:  50px;
+    z-index: 3;
+    border-top: none;
+}
+
+.ny{
+    position: absolute;
+    top: 208px;
+    left: 108px;
+    border-top-right-radius: 90px;
+    width: 150px;
+}
+
+.tips{
+    position: absolute;
+    background: slategray;
+    top: 258px;
+    border-top-right-radius: 50px;
+    left: 108px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.sips{
+    background: slategrey;
+    position: absolute;
+    top: 308px;
+    left: 108px;
+    width: 50px;
+    height: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: 4;
+    border-top: none;
+}
+
+.up{
+    background: slategrey;
+    top: 68px;
+    height: 40px;
+
+}
+
+.yn{
+    position: absolute;
+    left: 108px;
+    top: 308px;
+    width: 150px;
+    border-bottom-right-radius: 90px;
+    height: 132px;  
+}
+
+.t{
+    height: 120px;
+}
+
+#radi{
+    height: 300px;
+    width: 300px;
+    background: slateblue;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    box-shadow: 20px 20px black;
+    border-radius:  150px 150px 50px 50px/150px 150px 50px 50px
+}

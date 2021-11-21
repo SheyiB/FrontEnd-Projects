@@ -1,0 +1,19 @@
+.back{
+    width: 400px;
+    height: 250px; 
+}
+
+.ack{
+    width: 400px;
+    height: 100px;
+    border: solid 3px cornflowerblue;
+    border-radius: 200px;
+}
+
+.io{
+    width: 400px;
+    height: 250px;
+    background: radial-gradient(indigo,orange, rgb(228, 86, 51),white,green,orange,skyblue,white);
+    
+}
+
